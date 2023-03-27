@@ -1,0 +1,23 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Alexander Pakulov'
+theme = "poison"
+pluralizeListTitles = false
+
+[params]
+    brand = "Alexander Pakulov"
+    brand_image = "/images/profile.png"
+    dark_mode = true
+
+    # Links to your socials.  Delete any you don't need/use. 
+    github_url = "https://github.com/apakulov"
+    linkedin_url = "https://linkedin.com/in/apakulov"
+    twitter_url = "https://twitter.com/apakulov"
+
+    menu = [
+        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "Posts", URL = "/posts/", HasChildren = false},
+    ]
+
+    rss_icon = true
+    rss_section = "writing"

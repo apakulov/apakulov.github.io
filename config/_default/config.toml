@@ -20,4 +20,4 @@ pluralizeListTitles = false
     ]
 
     rss_icon = true
-    rss_section = "writing"
+    rss_section = "rss"
